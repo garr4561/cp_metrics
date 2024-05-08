@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 	console.log("Script loaded");
-
+/*
 	var studentNameInput = window.parent.cpAPIInterface.getVariableValue("cpQuizInfoStudentName");
 
             var courseName = window.parent.cpAPIInterface.getVariableValue("cpInfoProjectName");
@@ -63,6 +63,6 @@ $(document).ready(function() {
             dynamodb.putItem(params, function(err, data) {
                  if (err) console.log(err, err.stack); 
                  else     console.log(data);           
-            });
+            });*/
 
 });
